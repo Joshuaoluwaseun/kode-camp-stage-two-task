@@ -1,0 +1,17 @@
+KODE CAMP QUESTION 1
+Explain the following to the best of your ability
+
+a. Reactor pattern
+b. Callback pattern
+c. The module system
+
+The Reactor Pattern
+The Reactor Pattern is a design pattern commonly used in asynchronous event-driven architecture. The pattern provides a way to handle I/O operations efficiently by using non-blocking, event-driven mechanisms. In Node.js, the Reactor Pattern is at the core of its event loop and event-driven architecture. When the I/O requests are to be generated, they get submitted to a demultiplexer, which handles concurrency in avoiding the blocking of the I/O mode and collects the requests in the form of an event and puts them in a queue.
+
+Callback pattern
+Callback functions are at the heart of the Reactor Pattern in Node.js. They are used to specify what should happen when a particular event occurs or when an asynchronous operation completes. A callback is a function that is passed as an argument to another function and is invoked with the result when the operation completes. Event queues are used to manage and execute callbacks. 
+
+The module system
+A module system is a fundamental feature that allows you to organize and structure your code into reusable and maintainable components. The module system helps you break down your application into smaller, self-contained pieces of code, making it easier to manage and scale your projects. It also promotes code reusability and encapsulation.
+
+The Node.js module system is built around the CommonJS module specification, which defines how modules can be created, imported, and exported. Modules and the module system are fundamental parts of how Node.js applications are written and structured.
